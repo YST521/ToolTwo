@@ -1,0 +1,26 @@
+platform :ios, '8.0'
+
+# Import CocoaPods sources
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'ChatDemo-UI3.0' do
+
+	pod 'Hyphenate', :path => '../HyphenateFullSDK'
+
+	pod 'EaseUI', :path => '../EaseUI'
+
+	pod 'RedpacketAliAuthLib', '~> 1.1.4'
+	
+	#pod 'Hyphenate_VideoRecoder', :path => '../HyphenateVideoRecoder'
+
+end
+
+target 'ChatDemo-UI3.0-JDPay' do
+    
+	pod 'Hyphenate', :path => '../HyphenateFullSDK'
+
+	pod 'EaseUI', :path => '../EaseUI'
+    
+    	pod 'RedpacketLib'
+
+end
